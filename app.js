@@ -46,8 +46,9 @@ app.get('/miplantilla-ejs/:num', (req, res) => {
     });
 });
 
-
+/*
 // Iniciar el servidor en el puerto 3000
 app.listen(3000, () => {
     console.log('Aplicación web dinámica ejecutándose en el puerto 3000 \n http://localhost:3000');
 });
+*/
