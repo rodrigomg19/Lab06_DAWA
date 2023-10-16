@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title Mi plantilla Pug
+    link(rel="stylesheet", href="/css/styles.css")
+  body
+    h1 Bienvenido a la tabla de Multiplicar
+    p #{mensaje}
+    table
+      tr
+        th Numero 1
+        th Numero 2
+        th= "Resultado"
+      - for (let i = 1; i <= 12; i++)
+        tr
+          th= i
+          td= numero
+          td= i * numero
+

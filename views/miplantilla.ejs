@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi plantilla EJS</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <h1>Bienvenido a la tabla de Multiplicar</h1>
+  <p><%= mensaje %></p>
+  <table>
+    <tr>
+      <th>Numero 1</th>
+      <th>Numero 2</th>
+      <th>Resultado</th>
+    </tr>
+    <% for (let i = 1; i <= 12; i++) { %>
+      <tr>
+        <th><%= i %></th>
+        <td><%= numero %></td>
+        <td><%= i * numero %></td>
+      </tr>
+    <% } %>
+  </table>
+</body>
+</html>
+

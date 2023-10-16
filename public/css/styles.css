@@ -1,0 +1,22 @@
+body {
+    background-image: url('https://png.pngtree.com/background/20210712/original/pngtree-cute-hand-drawn-style-math-education-green-plaid-background-picture-image_1176972.jpg');
+    background-color: rgba(243, 3, 3, 0.747);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+  }
+  h1, p {
+    text-align: center;
+    color: white;
+  }
+  
+  table {
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  td{
+    text-align: center;
+  }
